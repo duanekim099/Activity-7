@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Activity 7</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!-- Carousel -->
+      <div class="container-fluid bg-dark p-3 fixed-top mt-5"></div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://img-a.ryte.com/f/117064/e09f9b90e8/1500x800-underperformingkeyword.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://i0.wp.com/blog.codacy.com/wp-content/uploads/2019/12/webinar-code-reviews.png?fit=1500%2C800&ssl=1"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://techcentral.co.za/wp-content/uploads/2022/12/developer-programmer-1500-800-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <!-- About -->
+      <h2 class="text-center">About</h2>
+      <div class="row" id="About">
+        <div class="col-md-6 p-5">
+          <img
+            class="img-fluid"
+            src="https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6 p-5">
+          <h1 class="display-3 fw-bold">Web Development</h1>
+          <p>
+            Web development, also known as website development, refers to the
+            tasks associated with creating, building, and maintaining websites
+            and web applications that run online on a browser. It may, however,
+            also include web design, web programming, and database management.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Services -->
+      <h2 class="text-center">Services</h2>
+      <div class="row" id="Services">
+        <div class="col-md-4 p-5">
+          <div class="card d-block mx-auto">
+            <img
+              src="https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn"
+              class="card-img-top"
+              alt="HTML"/>
+              <div class="card-body">
+                <h4 class="card-title text-center">HTML</h4>
+                <p class="card-text text-center">
+                  HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.
+                </p>
+              </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 p-5">
+          <div class="card d-block mx-auto">
+            <img
+              src="https://play-lh.googleusercontent.com/RTAZb9E639F4JBcuBRTPEk9_92I-kaKgBMw4LFxTGhdCQeqWukXh74rTngbQpBVGxqo"
+              class="card-img-top"
+              alt="CSS"/>
+              <div class="card-body">
+                <h4 class="card-title text-center">CSS</h4>
+                <p class="card-text text-center">
+                  Short for cascading style sheets, CSS describes reusable styles for presenting documents written in a markup language. Its concept was originated by Håkon Wium Lie in 1994. In December 1996, CSS was made a specification by the W3C, and today allows web developers to alter the layout and appearance of their web pages. For example, CSS can change the font used in certain HTML elements and their size and color. A single CSS file may be linked to multiple pages, allowing a developer to change the appearance of all the pages at the same time.
+                </p>
+              </div> 
+          </div>
+        </div>
+
+        <div class="col-md-4 p-5">
+          <div class="card d-block mx-auto">
+            <img src="Bootstrap.png" 
+            class="card-img-top"
+            alt="BOOTSTRAP">
+            <div class="card-body">
+              <h4 class="card-title text-center">BOOTSTRAP</h4>
+              <p class="card-text text-center">Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Contact Us -->
+      <h1 class="text-center">Contact Us</h1>
+      <form action="#">
+        <div class="row p-3 mb-4">
+          <div class="col-md-6" id="Contact">
+            <label for="first-name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name" name="first-name" placeholder="John" required>
+          </div>
+          <div class="col-md-6">
+            <label for="last-name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Doe" required>
+          </div>
+        </div>
+
+        <div class="row p-1 mb-4">
+          <div class="col-md-6">
+            <label for="email-address" class="form-label">Email Address:</label>
+            <input type="email" name="form-control" id="emailaddress" name="emailaddress" placeholder="name@domain.com" required>
+          </div>
+          <div class="col-md-6">
+            <label for="Contact#" class="form-label">Contact Number:</label>
+            <input type="tel" name="form-control" id="ContactNumber" name="ContactNumber" placeholder="09*********" required>
+          </div>
+
+          <div class="row p-3 mb-4">
+            <div class="col-12">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" class="form-control" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+      </form>
+
+      </div>
+    </section>
+
+    <section>
+      <!-- Footer -->
+      <div class="row text-center bg-dark text-white">
+        <p>Copyright © Activity 7 Web Development</p>
+      </div>
+
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
